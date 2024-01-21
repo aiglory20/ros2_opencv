@@ -1,0 +1,10 @@
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/install/strip.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/install/local.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/install.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/list_install_components.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/rebuild_cache.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/edit_cache.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/test.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/my_ros2_opencv_pkg_uninstall.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/ros2_opencv.dir
+/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build/CMakeFiles/uninstall.dir

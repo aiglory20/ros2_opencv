@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target ros2_opencv[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_opencv.dir/src/ros2_opencv.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros2_opencv[0m
+[100%] Built target ros2_opencv
+-- Install configuration: ""
+-- Installing: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/lib/my_ros2_opencv_pkg/ros2_opencv
+-- Set runtime path of "/home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/lib/my_ros2_opencv_pkg/ros2_opencv" to ""
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/ament_index/resource_index/package_run_dependencies/my_ros2_opencv_pkg
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/ament_index/resource_index/parent_prefix_path/my_ros2_opencv_pkg
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/environment/path.sh
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/environment/path.dsv
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/local_setup.bash
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/local_setup.sh
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/local_setup.zsh
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/local_setup.dsv
+-- Installing: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/package.dsv
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/ament_index/resource_index/packages/my_ros2_opencv_pkg
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/cmake/my_ros2_opencv_pkgConfig.cmake
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/cmake/my_ros2_opencv_pkgConfig-version.cmake
+-- Up-to-date: /home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg/share/my_ros2_opencv_pkg/package.xml

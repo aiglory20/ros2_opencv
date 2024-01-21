@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000102] (my_ros2_opencv_pkg) JobQueued: {'identifier': 'my_ros2_opencv_pkg', 'dependencies': OrderedDict()}
+[0.000131] (my_ros2_opencv_pkg) JobStarted: {'identifier': 'my_ros2_opencv_pkg'}
+[0.099929] (-) TimerEvent: {}
+[0.169777] (my_ros2_opencv_pkg) JobProgress: {'identifier': 'my_ros2_opencv_pkg', 'progress': 'cmake'}
+[0.170269] (my_ros2_opencv_pkg) JobProgress: {'identifier': 'my_ros2_opencv_pkg', 'progress': 'build'}
+[0.170884] (my_ros2_opencv_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg', '--', '-j16', '-l16'], 'cwd': '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'en_US:en'), ('USER', 'jiu'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '8902'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/jiu'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '6749'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8497945cd91aebe0d19c963e65ac90ff'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890/'), ('COLCON_PREFIX_PATH', '/home/jiu/OPENCV_WS/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'jiu'), ('http_proxy', 'http://127.0.0.1:7890/'), ('JOURNAL_STREAM', '8:51652'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jiu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/galactic/bin:/home/jiu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/fbl:@/tmp/.ICE-unix/9038,unix/fbl:/tmp/.ICE-unix/9038'), ('INVOCATION_ID', '2a8b68c6d5fb4e4cab9eaf85af5d75e1'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/36348ab8_07bd_4154_ac7d_d600c357ba2e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8497945cd91aebe0d19c963e65ac90ff'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jiu/OPENCV_WS/install/my_ros2_opencv_pkg:/opt/ros/galactic'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib')]), 'shell': False}
+[0.200320] (-) TimerEvent: {}
+[0.235224] (my_ros2_opencv_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_opencv\x1b[0m\n'}
+[0.265859] (my_ros2_opencv_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_opencv.dir/src/ros2_opencv.cpp.o\x1b[0m\n'}
+[0.300399] (-) TimerEvent: {}
+[0.400671] (-) TimerEvent: {}
+[0.500955] (-) TimerEvent: {}
+[0.601238] (-) TimerEvent: {}
+[0.701515] (-) TimerEvent: {}
+[0.801795] (-) TimerEvent: {}
+[0.902469] (-) TimerEvent: {}
+[1.002767] (-) TimerEvent: {}
+[1.103050] (-) TimerEvent: {}
+[1.203349] (-) TimerEvent: {}
+[1.303627] (-) TimerEvent: {}
+[1.403918] (-) TimerEvent: {}
+[1.504197] (-) TimerEvent: {}
+[1.604477] (-) TimerEvent: {}
+[1.704762] (-) TimerEvent: {}
+[1.805053] (-) TimerEvent: {}
+[1.905340] (-) TimerEvent: {}
+[2.005629] (-) TimerEvent: {}
+[2.105771] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.105969] (-) TimerEvent: {}
+[2.106061] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:38:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.106143] (my_ros2_opencv_pkg) StderrLine: {'line': b'   38 |       \x1b[01;31m\x1b[Kcv2\x1b[m\x1b[K.putText(frame, "man", (x, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,\n'}
+[2.106211] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.106266] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |       \x1b[32m\x1b[Kcv\x1b[m\x1b[K\n'}
+[2.107152] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:38:34:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.107243] (my_ros2_opencv_pkg) StderrLine: {'line': b'   38 |       cv2.putText(frame, "man", (\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, y - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,\n'}
+[2.107308] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.108486] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:38:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kyn\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.108585] (my_ros2_opencv_pkg) StderrLine: {'line': b'   38 |       cv2.putText(frame, "man", (x, \x1b[01;31m\x1b[Ky\x1b[m\x1b[K - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5,\n'}
+[2.108650] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.108706] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kyn\x1b[m\x1b[K\n'}
+[2.108759] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:39:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[2.108814] (my_ros2_opencv_pkg) StderrLine: {'line': b'   39 |                   (\x1b[01;35m\x1b[K0\x1b[m\x1b[K, 255, 0), 2)\n'}
+[2.108865] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.108917] (my_ros2_opencv_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp:39:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K-Wunused-value\x1b[m\x1b[K]\n'}
+[2.108969] (my_ros2_opencv_pkg) StderrLine: {'line': b'   39 |                   (0, 255, \x1b[01;35m\x1b[K0\x1b[m\x1b[K), 2)\n'}
+[2.109021] (my_ros2_opencv_pkg) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.206105] (-) TimerEvent: {}
+[2.306392] (-) TimerEvent: {}
+[2.406684] (-) TimerEvent: {}
+[2.506967] (-) TimerEvent: {}
+[2.607260] (-) TimerEvent: {}
+[2.623237] (my_ros2_opencv_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/ros2_opencv.dir/build.make:63: CMakeFiles/ros2_opencv.dir/src/ros2_opencv.cpp.o] Error 1\n'}
+[2.623479] (my_ros2_opencv_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/ros2_opencv.dir/all] Error 2\n'}
+[2.623674] (my_ros2_opencv_pkg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.626543] (my_ros2_opencv_pkg) CommandEnded: {'returncode': 2}
+[2.707930] (-) TimerEvent: {}
+[2.806306] (my_ros2_opencv_pkg) JobEnded: {'identifier': 'my_ros2_opencv_pkg', 'rc': 2}
+[2.807019] (-) EventReactorShutdown: {}

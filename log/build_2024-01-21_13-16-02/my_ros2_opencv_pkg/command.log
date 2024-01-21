@@ -1,0 +1,4 @@
+Invoking command in '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg -- -j16 -l16
+Invoked command in '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg -- -j16 -l16
+Invoking command in '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg
+Invoked command in '/home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/jiu/OPENCV_WS/build/my_ros2_opencv_pkg

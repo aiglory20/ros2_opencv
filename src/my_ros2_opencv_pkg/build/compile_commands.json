@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/build",
+  "command": "/usr/bin/g++  -DDEFAULT_RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -DRCUTILS_ENABLE_FAULT_INJECTION -I../include -isystem /opt/ros/galactic/include -isystem /home/jiu/Desktop/env/include/opencv4  -g   -Wall -Wextra -Wpedantic -std=gnu++17 -o CMakeFiles/ros2_opencv.dir/src/ros2_opencv.cpp.o -c /home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp",
+  "file": "/home/jiu/OPENCV_WS/src/my_ros2_opencv_pkg/src/ros2_opencv.cpp"
+}
+]
